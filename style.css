@@ -1,83 +1,47 @@
-body{
-  margin: 0;
+
+*{
   padding: 0;
-  background: url(../pic1.jpg);
-  background-size: cover;
-  background-position: center;
-  font-family: sans-serif;
-  background-repeat: no-repeat; 
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    width: 320px;
-    height: 520px;
-    background: #000;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-  }
+body{
+  background: rgb(171, 180, 180) ;
+}
+
+.row{
+  background : white;               
+}
+
+.btn1{
+  margin: 4px;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(94, 238, 94);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
   
-  .avatar{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
-  }
+}
+
+.ele1{
+  float: right;
+}
+
+#img2{
+  width: 20px;
+  height: 20px;
   
-  h1{
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    font-size: 22px;
-  }
+} 
+
+#btn2{
+  background-color: black;
   
-  .container p{
-    margin: 0;
-    padding: 0;
-   color: rgb(179, 46, 46);
-  }
-  
-  .container input{
-    width: 100%;
-   margin-bottom: 20px;
-  }
-  
-  .container input[type="text" ] , input[type= "password"]{
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-  
-  }
-  
-  
-  .container input[type="submit" ] {
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #fb2525;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-  
-  }
-  
-  .container input[type="submit" ]:hover{
-    cursor: pointer;
-    background: #ffc107;
-    color: #000;
-  }
-  
-  section {
-    text-align: center;
-  }
-  
+}
+   
+form {
+  margin-left: 20px;
+  margin-right: 20px;
+}
