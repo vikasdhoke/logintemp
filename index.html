@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        background: rgb(171, 180, 180) ;
+      }
+
+      .row{
+        background : white;               
+      }
+
+      .btn1{
+        margin: 4px;
+        border: none;
+        outline: none;
+        height: 50px;
+        width: 100%;
+        background-color: rgb(94, 238, 94);
+        color: white;
+        border-radius: 6px;
+        font-weight: bold;
+        
+      }
+
+      .ele1{
+        float: right;
+      }
+
+      .ele2{
+        background-image: url('./m2.jpg');
+        background-size: cover;
+      }
+
+      
+      #img2{
+        width: 20px;
+        height: 20px;
+        
+      } 
+      
+      #btn2{
+        background-color: black;
+        
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    
+    <section class="Form  my-4 mx-5 p-3">
+      <div class="container">
+        <div class="row no-gutters ">
+          <div class="col-lg-6 ">
+            <img src="m2.jpg" class="img-fluid" width="350" height="550" alt="">
+          </div>
+          
+          <div class="col-lg-6 px-6 pt-5">
+            <p>Welcome back</p>
+            <h1 >Login to your account</h1>
+            <form action="">
+              
+
+              <div class="form-row">
+                <div class="col-lg-7">
+                  <label for="exampleFormControlInput1" class="form-label">Email </label>
+                  <input type="email" placeholder="john.snow@gmail.com" class="form-control my-3 p-2">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-lg-7">
+                  <label for="exampleFormControlInput1" class="form-label">Password</label>
+                  <input type="password" placeholder="*********" class="form-control my-3 p-2" >
+                </div>
+              </div>          
+
+              <div class="form-row">
+                <div class="col-lg-7 ">
+                  
+                  <input type="radio">                  
+                  <span>Remenber me</span>
+                  <a class="ele1" href="#">Forgot password</a>                  
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-lg-7">
+                  <button type="button" class="btn1">Login now</button>
+                </div>  
+              </div>
+
+              <div class="form-row">
+                <div class="col-lg-7" >
+                 
+                  <button type="button" class="btn1" id="btn2" ><span><img id="img2" src="G2.webp"></span> Or sign in with google</button>
+                </div>
+              </div>              
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
